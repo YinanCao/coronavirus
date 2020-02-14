@@ -1,5 +1,5 @@
 clear; clc; close all;
-datadir = '/Users/yinancaojake/Documents/Postdoc/coronavirus/COVID-19-master-12Feb/time_series/';
+datadir = [pwd,'/COVID-19-master-12Feb/time_series/'];
 cd(datadir)
 
 folderpath = fullfile(datadir, '*.csv');    % What is the meaning of "/**/" ???
